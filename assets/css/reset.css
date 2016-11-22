@@ -1,0 +1,7 @@
+body, a, h2, p{
+  all: unset;
+}
+
+body, a, h2, p{
+  display: block;
+}
