@@ -9,16 +9,20 @@
         <script src="https://use.fontawesome.com/6bd21eb6b3.js"></script>
     </head>
     <body>
-        <header>
+        <header class="website-header">
             <nav class="navBar">
-                <a href="about.html">О магазине</a>
-                <a href="shares.html">Акции</a>
-                <a href="deliveryPay.html">Доставка и оплата</a>
-                <a href="credit.html">Кредит</a>
-                <a href="help.html">Помощь</a>
-                <a href="contacts.html">Контакты</a>
-                <a href="myShop.html">Мой магазин</a>
-                <a href="signIn.html">Вход</a>
+                <div>
+                    <a href="about.html">О магазине</a>
+                    <a href="shares.html">Акции</a>
+                    <a href="deliveryPay.html">Доставка и оплата</a>
+                    <a href="credit.html">Кредит</a>
+                    <a href="help.html">Помощь</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+                <div class="personalise">
+                    <a href="myShop.html"><i class="fa fa-money" aria-hidden="true"></i> Мой магазин</i></a>
+                    <a href="signIn.html"><i class="fa fa-key" aria-hidden="true"></i> Вход</a>    
+                </div>               
             </nav>
             <section class="headerBar">
                 <div class="shopLogo">
@@ -26,28 +30,34 @@
                         <img src="./assets/img/logo.png" alt="shop logo">
                     </a>
                 </div>
-                <div class="locationInformation">
-                    <select>
-                        <option value="Kiev">Киев</option>
-                        <option value="Dnepr">Днепр</option>
-                        <option value="Kharkiv">Харьков</option>
-                        <option value="Odessa">Одесса</option>
-                        <option value="Lviv">Львов</option>
-                    </select>
-                    <a href="">Заказать звонок</a>
-                    <p>0 800 555 00 55</p>
-                    <a href="">on-line чат</a>
-                    <p>044 555 00 55</p>
-                    <a href="bag.html">Корзина</a>
-                    <input type="search" name="searchText" placeholder="Поиск">
-                    <select>
-                        <option value="allCatalogue">Во всем каталоге</option>
-                        <option value="computers">Компьютерная техника</option>
-                        <option value="appliances">Бытовая техника</option>
-                        <option value="householdProducts">Товары для дома</option>
-                        <option value="plumbing">Сантехника и ремонт</option>
-                    </select>
-                    <button type="submit">&#128269;</button>
+                <div class="locationInfo">
+                    <div class="chatCall">
+                        <a href="">Заказать звонок</a>
+                        <a href="">on-line чат</a>
+                    </div>
+                    <div class="contactInfo">
+                        <select>
+                            <option value="Kiev">Киев</option>
+                            <option value="Dnepr">Днепр</option>
+                            <option value="Kharkiv">Харьков</option>
+                            <option value="Odessa">Одесса</option>
+                            <option value="Lviv">Львов</option>
+                        </select>
+                        <p>0 800 555 00 55</p> 
+                        <p>044 555 00 55</p>
+                        <a href="bag.html"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Корзина</a>
+                    </div>
+                    <div class="searchField">
+                        <input type="search" name="searchText" placeholder="Поиск" class="search-input">
+                        <select class="selectCatalogue">
+                            <option value="allCatalogue">Во всем каталоге</option>
+                            <option value="computers">Компьютерная техника</option>
+                            <option value="appliances">Бытовая техника</option>
+                            <option value="householdProducts">Товары для дома</option>
+                            <option value="plumbing">Сантехника и ремонт</option>
+                        </select>
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>            
                 </div>
             </section>
         </header>
