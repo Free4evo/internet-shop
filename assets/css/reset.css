@@ -1,7 +1,7 @@
-body, a, h2, p{
+body, a, h2, p, button, input, select{
   all: unset;
 }
 
-body, a, h2, p{
+body, a, h2, p, select{
   display: block;
 }
