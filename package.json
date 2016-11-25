@@ -1,0 +1,38 @@
+{
+    "name": "internet-shop",
+    "version": "1.0.0",
+    "description": "liulia-o study project",
+    "keywords":
+    [
+        "liulia-o",
+        "study",
+        "project",
+        "shop",
+        "responsive"
+    ],
+    "bugs":
+    {
+        "url": "https://github.com/Free4evo/internet-shop/issues",
+        "email": "liulia.oleg@gmail.com"
+    },
+    "license": "MIT",
+    "author": "Oleg Liulia <liulia.oleg@gmail.com>",
+    "repository": "Free4evo/internet-shop",
+    "devDependencies":
+    {
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.0",
+        "gulp-postcss": "^6.2.0",
+        "gulp-connect": "^5.0.0",
+
+        "postcss-media-minmax": "^2.1.2",
+        "postcss-nested-props": "^1.1.0",
+        "postcss-nested": "^1.0.0",
+        "postcss-custom-properties": "^5.0.1",
+        "postcss-short-spacing": "^1.0.0"
+    },
+    "scripts":
+    {
+        "start": "gulp dev"
+    }
+}
