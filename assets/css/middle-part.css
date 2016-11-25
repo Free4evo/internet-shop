@@ -1,0 +1,71 @@
+.middle-part
+{
+    display: inline-flex;
+    margin: 0 auto;
+
+    .left-side
+    {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+
+        .content-menu
+        {
+            border: 2px solid lightgrey;
+            padding: 10px;
+        }
+
+        .selling-leader
+        {
+            border: 2px solid lightgrey;
+            margin-top: 20px;
+        }
+    }
+
+    .right-side
+    {
+        display: flex;
+        flex-direction: column;
+
+        .main
+        {
+            display: flex;
+            flex-direction: column;
+
+           .nav-map
+           {
+               p 
+               {
+                   display: inline-flex;
+               }     
+           }
+        }
+
+        .selection-brand
+        {
+            border: 2px solid lightgrey;
+
+            .brand-table
+            {
+                display: inline-flex;
+                flex-wrap: wrap;
+                padding: 10px;
+
+                a 
+                {
+                  padding: 0 10px 10px 0;
+                }
+            }
+        }
+
+        .promotional-offers
+        {
+            border: 2px solid lightgrey;
+        }
+
+        .reviews
+        {
+            border: 2px solid lightgrey;
+        }
+    }
+}

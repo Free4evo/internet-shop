@@ -1,0 +1,6 @@
+.website-footer{
+    display: flex;
+    border: 2px solid lightgrey;
+    margin-top: 20px;
+    justify-content: space-around;
+}

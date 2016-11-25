@@ -1,4 +1,15 @@
-:root{
+:root
+{
     font-family: sans-serif;
     min-width: 320px;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.font-img-center
+{
+    display: inline-flex;
+    margin: auto;
 }

@@ -1,88 +1,103 @@
-.website-header{
+.website-header
+{
     position: relative;
     display: flex;
     flex-direction: column;
     border: 2px solid lightgrey;
-    max-width: 1440px;
-    margin: 10px auto;
-}
+    margin: 20px auto;
+    
+    .navBar
+    {
+        display: inline-flex;
+        justify-content: space-between;
+        border-bottom: 2px solid lightgray;
 
-.website-header .navBar{
-    display: inline-flex;
-    justify-content: space-between;
-    border-bottom: 2px solid lightgray;
-}
+        .personalise a
+        {
+            text-decoration: underline;
+            color: blue;
+        }
 
-.website-header .navBar div{
-    display: inline-flex;
-}
+        div
+        {
+            display: inline-flex;
+        }
 
-.website-header .headerBar{
-    display: inline-flex;
-}
+        a
+        {
+            margin: 5px;
+            padding: 5px;
+            border-right: 1px solid lightgrey;
 
-.website-header .navBar a{
-    margin: 5px;
-    padding: 5px;
-    border-left: 1px solid lightgrey;
-}
+            &:last-of-type
+            {
+                border: none;
+            }
+        }
 
-.website-header .navBar .personalise a{
-    text-decoration: underline;
-    color: blue;
-}
+    }
 
-.website-header .navBar a:first-child{
-    border: none;
-}
+        .headerBar
+        {
+            display: inline-flex;
 
-.website-header .headerBar .locationInfo{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin: 10px 10px 10px 0;
-}
+            .locationInfo
+            {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                margin: 10px 10px 10px 0;
 
-.website-header .headerBar .shopLogo{
-    margin: 10px;
-}
+                .chatCall
+                {
+                    display: inline-flex;
+                    justify-content: space-around;
+                }
 
-.website-header .headerBar .locationInfo .chatCall{
-    display: inline-flex;
-    justify-content: space-around;
-}
+                .contactInfo
+                {
+                    display: inline-flex;
+                    justify-content: space-around;
+                    flex-grow: 1;
+                    align-items: center;
 
-.website-header .headerBar .locationInfo .contactInfo{
-    display: inline-flex;
-    justify-content: space-around;
-    flex-grow: 1;
-    align-items: center;
-}
+                    p{
+                        font-weight: bold;
+                        font-size: 24px;
+                    }
+                }
 
-.website-header .headerBar .locationInfo .contactInfo p{
-    font-weight: bold;
-    font-size: 24px;
-}
+                .searchField
+                {
+                    display: inline-flex;
+                    align-content: flex-end;
+                    border: 2px solid lightgrey;
+                    flex-grow: 1;
 
-.website-header .headerBar .locationInfo .searchField{
-    display: inline-flex;
-    align-content: flex-end;
-    border: 2px solid lightgrey;
-    flex-grow: 1;
-}
+                    .selectCatalogue
+                    {
+                        border-right: inherit;
+                        padding: 0 5px;
+                        align-items: center;
+                    }
 
-.website-header .headerBar .locationInfo .searchField .selectCatalogue{
-    border-right: inherit;
-    padding: 0 5px;
-    align-items: center;
-}
+                    .search-input
+                    {
+                        flex-grow: 1;
+                        border-right: inherit;
+                        padding: 0 5px;
+                    }
 
-.website-header .headerBar .locationInfo .searchField .search-input{
-    flex-grow: 1;
-    border-right: inherit;
-    padding: 0 5px;
-}
+                    button
+                    {
+                        padding: 0 5px;
+                    }
+                }
+            }
 
-.website-header .headerBar .locationInfo .searchField button{
-    padding: 0 5px;
+            .shopLogo
+            {
+                margin: 10px;
+            }
+        }
 }
