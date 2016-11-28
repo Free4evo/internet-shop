@@ -29,7 +29,8 @@
         "postcss-nested-props": "^1.1.0",
         "postcss-nested": "^1.0.0",
         "postcss-custom-properties": "^5.0.1",
-        "postcss-short-spacing": "^1.0.0"
+        "postcss-short-spacing": "^1.0.0",
+        "autoprefixer": "^6.5.3"
     },
     "scripts":
     {

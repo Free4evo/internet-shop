@@ -11,6 +11,7 @@ const plugins =
     require("postcss-nested"),
     require("postcss-custom-properties"),
     require("postcss-short-spacing"),
+    require("autoprefixer")
 ]
 
 gulp.task("connect", () =>
