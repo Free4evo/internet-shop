@@ -32,6 +32,36 @@
             display: flex;
             flex-direction: column;
 
+            .slider
+            {
+                position:relative;
+                margin: 100px auto;
+                padding: 5px;
+            }
+            #scr {
+                margin:20px auto;
+                width: 600px;
+                height: 320px;
+                margin-top:20px;
+                background-color: white;
+                background-size:cover;
+            }
+            button {
+                position: absolute;
+                top: 150px;
+                width: 25px;
+                height: 70px;
+                font: 12pt arial,tahoma,sans-serif;
+                text-align: center;
+            
+                .left {
+                    left:5px;
+                }
+
+                .right {
+                    right:5px;
+                }
+            }
            .nav-map
            {
                p 
